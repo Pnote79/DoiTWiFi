@@ -32,6 +32,10 @@ Cetak Voucher
 
 ![image](https://github.com/user-attachments/assets/26b64d19-a61b-4c28-b355-ea5fe868e4db)
 
+Sawer Untuk Beli Kopi
+DANA/SHOOPEPAY 081328969125
+TERIMAKASIH
+
 
 
 
