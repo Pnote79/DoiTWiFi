@@ -1,0 +1,96 @@
+@font-face {
+    font-family: JuanFiMan;
+    src: url(juanfiman.otf);
+  }
+
+.login-container{
+    max-width: 350px;
+    margin: 50px auto 0 auto;
+    padding: 20px;
+    box-shadow: 0px 20px 50px rgba(0,0,0,0.3);
+    border-radius: 3px;
+}
+
+#brandName{
+    text-align: center;
+    font-size: 35px;
+    margin: 10px 0 20px 0;
+    font-weight: bold;
+}
+
+#brandNameDashboard{
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0 20px 0;
+    
+}
+
+
+#JuanFi {
+    color: red;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#Man {
+    color: white;
+    display: inline-block;
+    text-transform: lowercase;
+}
+
+
+svg{
+    vertical-align: -10%;
+    display: inline-block;
+}
+
+.mtData svg{
+    vertical-align: -10%;
+    display: inline-block;
+    margin-right: 1px
+}
+
+.actionBtn{
+    background-color: #f0ad4e;
+    color: #000;
+    padding: 1px 10px 1px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.actionBtn:hover{
+    text-decoration: none;
+    color: #4e4e4e;
+}
+
+.mtDataDiv{
+    display: flex;
+    align-items: space-around;
+    justify-content: space-around;
+}
+
+.mtData{
+    display: inline-block;
+}
+
+.mtData label, span{
+    display: block;
+}
+
+
+@media screen and (max-width: 400px) {
+    .mtDataDiv{
+        display: block;
+    }
+
+    .mtData{
+        display: block;
+        margin-top: 20px;
+    }
+
+    .mtData label, span{
+        display: inline-block;
+    }
+  }
+
+ 
