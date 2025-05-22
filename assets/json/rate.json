@@ -1,0 +1,46 @@
+[
+    {
+        "name": "1 HARI",
+        "quantity": "1",
+        "amount": "2000",
+        "margine": "1500",
+        "limitbytes": "8",
+        "length": "8",
+        "profile": "1-HARI",
+        "vendo": "",
+        "id": 1
+    },
+    {
+        "name": "6 HARI",
+        "quantity": "1",
+        "amount": "7000",
+        "margine": "6000",
+        "limitbytes": "20",
+        "length": "8",
+        "profile": "1-MINGGU",
+        "vendo": "",
+        "id": 2
+    },
+    {
+        "name": "13 HARI",
+        "quantity": "1",
+        "amount": "13000",
+        "margine": "11000",
+        "limitbytes": "50",
+        "length": "8",
+        "profile": "2-MINGGU",
+        "vendo": "",
+        "id": 3
+    },
+    {
+        "name": "1 BULAN",
+        "quantity": "1",
+        "amount": "30000",
+		"margine": "27000",
+        "limitbytes": "100",
+        "length": "8",
+        "profile": "1-BULAN",
+        "vendo": "0",
+        "id": 4
+    }
+]
