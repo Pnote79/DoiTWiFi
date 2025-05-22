@@ -1,0 +1,89 @@
+[
+    {
+        "seller": "pnote",
+        "profile": "1-HARI",
+        "amount": 2000,
+        "qty": 1,
+        "cost": 1500,
+        "data_limit": "8 GB",
+        "prefix": null,
+        "codes": [
+            "15F8B154"
+        ],
+        "date": "2025-05-18 18:42:10",
+        "dns": "KWH otspot"
+    },
+    {
+        "seller": "pnote",
+        "profile": "1-MINGGU",
+        "amount": 7000,
+        "qty": 5,
+        "cost": 30000,
+        "data_limit": "20 GB",
+        "prefix": null,
+        "codes": [
+            "1A9FE6F3",
+            "6D096B50",
+            "9877E31D",
+            "41B1176D",
+            "4929C3E0"
+        ],
+        "date": "2025-05-18 18:43:04",
+        "dns": "KWH otspot"
+    },
+    {
+        "seller": "pnote",
+        "profile": "1-HARI",
+        "amount": 2000,
+        "qty": 1,
+        "cost": 1500,
+        "codes": [
+            "F922875F"
+        ],
+        "date": "2025-05-18 20:44:24"
+    },
+    {
+        "seller": "pnote",
+        "profile": "1-HARI",
+        "amount": 2000,
+        "qty": 1,
+        "cost": 1500,
+        "codes": [
+            "026E2D0E"
+        ],
+        "date": "2025-05-18 20:46:30"
+    },
+    {
+        "seller": "pnote",
+        "profile": "1-HARI",
+        "amount": 2000,
+        "qty": 1,
+        "cost": 1500,
+        "codes": [
+            "FC75C290"
+        ],
+        "date": "2025-05-18 21:33:54"
+    },
+    {
+        "seller": "pnote",
+        "profile": "1-HARI",
+        "amount": 2000,
+        "qty": 1,
+        "cost": 1500,
+        "codes": [
+            "11D21CCC"
+        ],
+        "date": "2025-05-18 21:43:51"
+    },
+    {
+        "seller": "root",
+        "profile": "1-HARI",
+        "amount": 2000,
+        "qty": 1,
+        "cost": 1500,
+        "codes": [
+            "435C1B7E"
+        ],
+        "date": "2025-05-20 00:01:24"
+    }
+]

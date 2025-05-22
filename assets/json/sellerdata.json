@@ -1,0 +1,42 @@
+{
+    "1": {
+        "sellername": "root",
+        "sellerpasswd": "$2y$10$9P67cfhTo9gdM8NoRFLgAO8yHBULmYI4eRmi9KdryGznEmYU5LPNC",
+        "profile": "admin",
+        "sellerphone": "-",
+        "sellerbalance": 13500,
+        "id": 0
+    },
+    "2": {
+        "sellername": "pnote",
+        "sellerpasswd": "$2y$10$Kqz.yhDPTak2y\/JzBO9ko.f97rKcmgB6mTcMTXwRYga4NjY1QS8le",
+        "profile": "seller",
+        "sellerphone": "08881777888",
+        "sellerbalance": 294500,
+        "id": 1
+    },
+    "3": {
+        "sellername": "Djo",
+        "sellerpasswd": "$2y$10$IQ.hEdVgRSMxVYO.iWUtEuCK4IZ7vIXIBTjUPeowI.2M7qMTt.TNC",
+        "profile": "seller",
+        "sellerphone": "08881",
+        "sellerbalance": 150020,
+        "id": 2
+    },
+    "4": {
+        "sellername": "AbdulSho",
+        "sellerpasswd": "$2y$10$eW7sd9RMU\/BsPty1YZfDTeEyRNXXedBkzGyXraac.4lfWEGVfza5e",
+        "profile": "seller",
+        "sellerphone": "08881",
+        "sellerbalance": 185000,
+        "id": 3
+    },
+    "5": {
+        "sellername": "faresta",
+        "sellerpasswd": "$2y$10$WuxONdOyrZWvaUxfmvCX1eqLxvUSa.5ayCIPXDQSl63V17ySQG5HK",
+        "profile": "seller",
+        "sellerphone": "088814564222",
+        "sellerbalance": 9667500,
+        "id": 4
+    }
+}

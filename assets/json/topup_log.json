@@ -1,0 +1,62 @@
+[
+    {
+        "datetime": "2025-05-17 21:43:55",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 1200,
+        "before": 212300,
+        "after": 213500,
+        "msg": "Topup Rp 1,200  Berhasil. Saldo Rp 213,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-05-17 21:43:55",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 1200,
+        "before": 212300,
+        "after": 213500,
+        "msg": "Topup Rp 1,200  Berhasil. Saldo Rp 213,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-05-18 01:59:21",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 20000,
+        "before": 213500,
+        "after": 233500,
+        "msg": "Topup Rp 20,000  Berhasil. Saldo Rp 233,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-05-18 02:09:49",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 50000,
+        "before": 232000,
+        "after": 282000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 282,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-05-18 18:49:39",
+        "sellerid": "4",
+        "sellername": "faresta",
+        "topup": 50000,
+        "before": 9617500,
+        "after": 9667500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 9,667,500",
+        "read": false
+    },
+    {
+        "datetime": "2025-05-18 20:48:27",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 50000,
+        "before": 247500,
+        "after": 297500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 297,500",
+        "read": true
+    }
+]
