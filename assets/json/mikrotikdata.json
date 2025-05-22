@@ -1,10 +1,10 @@
 [
     {
-        "mtip": "10.11.45.254",
+        "mtip": "192.168.88.1",
         "mtuser": "admin",
-        "mtpass": "7980",
+        "mtpass": "",
         "dns": "KWH otspot",
-        "mtdns": "kw.hotspot2"
+        "mtdns": "kw.hotspot"
     },
     {
         "teletoken": "629496500:AAG26irJVw2_8tglIFzdb0UjMzc0lb-nFTU",
