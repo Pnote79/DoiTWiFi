@@ -46,8 +46,9 @@ $active_users = getActiveUsers($API);
 <body class="bg-dark">
 <?php include("../page/navigation.php"); ?>
 
-
+     
     <h4 class="text-light mb-3">PPPoE Users Monitoring</h4>
+<div class="table-responsive">
     <table id="userTable" class="table table-dark table-hover table-sm" style="font-size:14px">
         <thead>
             <tr>
@@ -90,7 +91,7 @@ $active_users = getActiveUsers($API);
             ?>
         </tbody>
     </table>
-
+</div>
 
 <!-- Auto Refresh hanya bagian tabel -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
