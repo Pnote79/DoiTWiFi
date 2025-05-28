@@ -25,7 +25,7 @@ $usernames = array_unique(array_column($log, 'sellername'));
   </style>
 </head>
 <body>
-<?php include('navigation.php');?>
+<?php include('../page/navigation.php');?>
 <div class="card mt-4">
   <div class="card-header bg-info text-white d-flex justify-content-between align-items-center">
     📜 Riwayat TopUp
@@ -36,7 +36,7 @@ $usernames = array_unique(array_column($log, 'sellername'));
       <?php endforeach; ?>
     </select>
   </div>
-  <div class="card-body">
+  <div class="table-responsive">
     <table class="table table-bordered table-sm" id="topupTable">
       <thead>
         <tr>
