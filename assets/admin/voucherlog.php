@@ -33,8 +33,8 @@ $filteredLogs = $filterSeller ? array_filter($logData, fn($log) => $log['seller'
   </style>
 </head>
 <body>
-<?php include('navigation.php'); ?>
-<div class="container">
+<?php include('../page/navigation.php'); ?>
+<div class="card mt-4">
   <h4 class="mb-4">📄 Riwayat Generate Voucher</h4>
 
   <form method="get" class="form-inline mb-3">
