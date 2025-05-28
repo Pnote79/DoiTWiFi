@@ -27,6 +27,8 @@ include("../class/mt_resources.php");
 </head>
 <body class="bg-dark">
 <?php include("../page/navigation.php"); ?>
+ <h4 class="text-light mb-3">Hospot Active</h4>
+<div class="table-responsive">
 <table class="table table-dark table-hover table-sm" style="font-size:12px">
     <tr>
         <th>Id</th>
@@ -83,7 +85,7 @@ include("../class/mt_resources.php");
     ?>
     
 </table>
-
+</div>
 
 <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
