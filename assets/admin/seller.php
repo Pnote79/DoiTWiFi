@@ -60,13 +60,13 @@ $id = 1;
   </div>
 <?php endif; ?>
 
-<div class="container-fluid">
+<div class="card mt-4">
   <div class="card">
     <div class="card-header bg-dark text-white">
       🧑‍ Daftar Seller
-      <button class="btn btn-sm btn-success float-right" data-toggle="modal" data-target="#addSellModal">➕ Tambah</button>
+    
     </div>
-    <div class="card-body p-0">
+    <div class="table-responsive">
       <table class="table table-bordered table-hover table-striped mb-0">
         <thead class="thead-dark">
           <tr>
