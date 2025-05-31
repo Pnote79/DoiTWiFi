@@ -14,6 +14,13 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
+    - name: Move project contents to root
+      run: |
+        shopt -s dotglob
+        mv DoiTWiFi-main/* .
+        mv DoiTWiFi-main/.* . || true
+        rmdir DoiTWiFi-main
+
     - name: Setup PHP
       uses: shivammathur/setup-php@v2
       with:
@@ -28,36 +35,30 @@ jobs:
     - name: Cache Composer dependencies
       uses: actions/cache@v4
       with:
-        path: DoiTWiFi-main/vendor
-        key: ${{ runner.os }}-composer-${{ hashFiles('DoiTWiFi-main/composer.lock') }}
+        path: vendor
+        key: ${{ runner.os }}-composer-${{ hashFiles('composer.lock') }}
         restore-keys: |
           ${{ runner.os }}-composer-
 
     - name: Copy .env
       run: php -r "file_exists('.env') || copy('.env.example', '.env');"
-      working-directory: DoiTWiFi-main
 
     - name: Install Dependencies
       run: composer install -vvv --no-interaction --prefer-dist --no-progress
-      working-directory: DoiTWiFi-main
 
     - name: Generate Application Key
       run: php artisan key:generate
-      working-directory: DoiTWiFi-main
 
     - name: Set Directory Permissions
       run: chmod -R 777 storage bootstrap/cache
-      working-directory: DoiTWiFi-main
 
     - name: Create SQLite Database
       run: |
         mkdir -p database
         touch database/database.sqlite
-      working-directory: DoiTWiFi-main
 
     - name: Run Tests
       env:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
       run: php artisan test
-      working-directory: DoiTWiFi-main
