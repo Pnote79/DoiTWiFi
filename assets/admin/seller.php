@@ -31,6 +31,12 @@ foreach ($sellerdata as $data) {
         $statusMap[$sellername] = 'inactive';
     }
 }
+// Hitung Total Topup Bulan ini
+$logPath = "../json/topup_log.json";
+$log = file_exists($logPath) ? json_decode(file_get_contents($logPath), true) : [];
+
+$bulanIni = date("Y-m"); // Format: 2025-05 misalnya
+
 
 $id = 1;
 ?>
@@ -76,6 +82,7 @@ $id = 1;
             <th>No WA</th>
             <th>Voucher</th>
             <th>Balance</th>
+			<th>TopupMonth</th>
             <th>Status</th>
           </tr>
         </thead>
@@ -89,6 +96,16 @@ $id = 1;
                 $parts = explode("|", $hotsell['comment']);
                 if (isset($parts[1]) && trim($parts[1]) === $sellername) $countseller++;
               }
+			  $topup_month = 0;
+			  foreach ($log as $doit) {
+              if (
+              isset($doit['datetime'], $doit['topup'], $doit['sellername']) &&
+              substr($doit['datetime'], 0, 7) == $bulanIni &&
+              $doit['sellername'] == $sellername
+                   ) {
+              $topup_month += (int)$doit['topup'];
+                     }
+              }
               $status = isset($statusMap[$sellername]) ? $statusMap[$sellername] : 'unknown';
               $badge = $status === 'active' ? 'success' : ($status === 'inactive' ? 'secondary' : 'warning');
             ?>
@@ -98,7 +115,8 @@ $id = 1;
               <td><?= htmlspecialchars($sellername) ?></td>
               <td><?= htmlspecialchars($data['sellerphone']) ?></td>
               <td><?= $countseller ?></td>
-              <td><?= htmlspecialchars($data['sellerbalance']) ?></td>
+              <td>Rp <?= number_format($data['sellerbalance'], 0, ',', '.') ?></td>
+			  <td>Rp <?= number_format($topup_month, 0, ',', '.') ?></td>
               <td><span class="badge badge-<?= $badge ?>"><?= ucfirst($status) ?></span></td>
             </tr>
 
