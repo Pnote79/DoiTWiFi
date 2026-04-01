@@ -19,6 +19,10 @@ Modules:
 - Seller System
 <img width="752" height="778" alt="image" src="https://github.com/user-attachments/assets/257420a2-5421-4aec-8024-73e82c45a88a" />
 
+Username = root
+passwword = admin
+Dasbord = KWH@otspot efect 2 warna pemisah @
+
 - 
   
 
@@ -31,3 +35,5 @@ Backen Starlink
 node /var/www/html/DOiTWiFi/app/Views/node/starlink.js
 
 /bin/sh /usr/local/bin/sync-github.sh
+<img width="731" height="1190" alt="image" src="https://github.com/user-attachments/assets/d62eb1a7-b2fb-40c4-90fe-127447a62459" />
+
