@@ -1,5 +1,5 @@
 
-MODERN ISP PANEL
+DOiTWiFi PANEL
 
 Modules:
 - Dashboard
@@ -7,13 +7,9 @@ Modules:
 - MikroTik PPPoE
 - Hotspot Voucher
 - Seller System
+<img width="1621" height="843" alt="image" src="https://github.com/user-attachments/assets/0d1809d6-4900-4668-8210-b6062b93870e" />
 
-URL:
-/dashboard
-/acs/devices
-/mikrotik/pppoe
-/voucher
-/seller
+
 
 
 longpoling telegram
