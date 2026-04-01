@@ -1,0 +1,54 @@
+{
+    "1": {
+        "sellername": "root",
+        "sellertele": "@Suratna79",
+        "chat_id": "586714952",
+        "sellerpasswd": "$2y$10$M3Ci7Dfavg5yMWm73LdMqeNRbWUDutS1dBoRuYmp1kSaBaw1XalTu",
+        "profile": "admin",
+        "sellerphone": "-",
+        "sellerbalance": 116500,
+        "id": 0
+    },
+    "2": {
+        "sellername": "pnote",
+        "sellerpasswd": "$2y$10$Kqz.yhDPTak2y\/JzBO9ko.f97rKcmgB6mTcMTXwRYga4NjY1QS8le",
+        "profile": "seller",
+        "sellerphone": "081328969125",
+        "sellerbalance": 1287000,
+        "id": 1,
+        "chat_id": "8596662422",
+        "sellertele": "@Afou"
+    },
+    "3": {
+        "sellername": "Djo",
+        "sellerpasswd": "$2y$12$lB\/UtvHpdTckphK1GR5woOgdJsfBtym418UhiQ7Qyf1VK3E4iqa.6",
+        "profile": "seller",
+        "sellerphone": "08881",
+        "sellerbalance": 14500,
+        "id": 2
+    },
+    "4": {
+        "sellername": "AbdulSho",
+        "sellerpasswd": "$2y$10$eW7sd9RMU\/BsPty1YZfDTeEyRNXXedBkzGyXraac.4lfWEGVfza5e",
+        "profile": "seller",
+        "sellerphone": "08881",
+        "sellerbalance": 159000,
+        "id": 3
+    },
+    "5": {
+        "sellername": "faresta",
+        "sellerpasswd": "$2y$10$8AFOCQJKLkfUuaL50UwseOwGq5\/pcMDI9o6AkowG6OFnbwgGutmDO",
+        "profile": "seller",
+        "sellerphone": "08881",
+        "sellerbalance": 500,
+        "id": 4
+    },
+    "6": {
+        "sellername": "time",
+        "sellerpasswd": "$2y$10$M8jvpklB0GQNi6NlPTmjf.7TXnmttwSjyM9gpI7D27PQ.OBI.QzZS",
+        "profile": "seller",
+        "sellerphone": "08132",
+        "sellerbalance": 19000,
+        "id": 5
+    }
+}

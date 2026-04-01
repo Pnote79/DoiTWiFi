@@ -1,0 +1,30 @@
+[
+    {
+        "id": "682884fc7df68",
+        "sellername": "pnote",
+        "message": "Saldo Anda bertambah Rp 50,000",
+        "datetime": "2025-05-17 19:45:48",
+        "read": true
+    },
+    {
+        "id": "6828856009958",
+        "sellername": "pnote",
+        "message": "Saldo Anda bertambah Rp 10,000",
+        "datetime": "2025-05-17 19:47:28",
+        "read": true
+    },
+    {
+        "id": "6828922fc84d5",
+        "sellername": "pnote",
+        "message": "Saldo Anda bertambah Rp 20,000",
+        "datetime": "2025-05-17 20:42:07",
+        "read": true
+    },
+    {
+        "id": "6828954b982b8",
+        "sellername": "Djo",
+        "message": "Saldo Anda bertambah Rp 20",
+        "datetime": "2025-05-17 20:55:23",
+        "read": true
+    }
+]

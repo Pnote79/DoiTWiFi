@@ -1,0 +1,15 @@
+[
+    {
+        "mtip": "192.168.45.254",
+        "mtuser": "admin",
+        "mtpass": "7980",
+        "dns": "KWH@otspot",
+        "mtdns": "kw.hotspot.net",
+        "acsurl": "http:\/\/172.17.0.2:7557\/devices"
+    },
+    {
+        "teletoken": "629496500:AAG26irJVw2_8tglIFzdb0UjMzc0lb-nFTU",
+        "chatid": "586714952",
+        "acs_url": "http:\/\/192.168.45.254:7557\/devices"
+    }
+]

@@ -1,0 +1,159 @@
+/* ============================================================
+   1. FONT, RESET & ASSETS UTAMA
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+@font-face {
+    font-family: 'JuanFiMan';
+    src: url('../fonts/juanfiman.otf'); 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* ============================================================
+   2. BASE STYLES (DEFAULT)
+   ============================================================ */
+body {
+    background-color: #f4f7f6;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    color: #333;
+}
+
+/* ============================================================
+   3. HALAMAN LOGIN (Gunakan <body class="login-page">)
+   ============================================================ */
+body.login-page {
+    background: #0f0c29;
+    background: linear-gradient(135deg, #24243e, #302b63, #0f0c29) !important;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.login-container {
+    width: 90%;
+    max-width: 380px;
+    padding: 35px 25px;
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 10;
+}
+
+#brandName { text-align: center; font-size: 32px; margin-bottom: 30px; font-weight: 800; }
+#DoiT { color: #ff4b2b; text-transform: uppercase; font-family: 'JuanFiMan', sans-serif; }
+#WIfi { color: #ffffff; font-weight: 400; }
+
+.login-page .form-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.login-page .form-control {
+    background: rgba(255, 255, 255, 0.08) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #fff !important;
+    padding: 12px 15px;
+    border-radius: 10px !important;
+    width: 100%;
+}
+
+.footer-link {
+    color: rgba(255,255,255,0.4);
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+
+/* ============================================================
+   4. TEMA GELAP (Hotspot Active, Profile, PPPoE)
+   Gunakan <body class="dark-theme">
+   ============================================================ */
+body.dark-theme { background-color: #0f1011; color: #e0e0e0; font-size: 13px; }
+
+.card-dark { background-color: #1a1c1e; border: 1px solid #333; border-radius: 8px; }
+
+.table-dark-custom { background-color: #1c1f22 !important; border: none; color: #fff; }
+.table-dark-custom thead th { 
+    background-color: #25282c; color: #00d4ff; border: none; 
+    text-transform: uppercase; letter-spacing: 0.5px; font-size: 11px; 
+}
+
+.form-control-dark { background: #25282c; border: 1px solid #444; color: white; border-radius: 8px; font-size: 12px; }
+.form-control-dark:focus { background: #2d3135; border-color: #00d4ff; box-shadow: none; color: white; }
+.modal-content-dark { background-color: #1a1c1e; color: white; border: 1px solid #444; border-radius: 12px; }
+
+/* Status Indicators */
+.status-dot { height: 8px; width: 8px; border-radius: 50%; display: inline-block; margin-right: 5px; }
+.bg-online { background-color: #28a745; box-shadow: 0 0 5px #28a745; }
+.bg-offline { background-color: #dc3545; }
+
+/* ============================================================
+   5. ADMIN HOME & SELLER MANAGEMENT
+   ============================================================ */
+.card-box { padding: 15px; color: white; border-radius: 12px; margin-bottom: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: 0.3s; }
+.card-box:hover { transform: translateY(-3px); }
+
+.bg-red { background: linear-gradient(45deg, #e74c3c, #c0392b); }
+.bg-yellow { background: linear-gradient(45deg, #f1c40f, #f39c12); }
+.bg-green { background: linear-gradient(45deg, #1abc9c, #16a085); }
+.bg-blue-dark { background: linear-gradient(45deg, #3498db, #2980b9); }
+
+.seller-card { border: none; border-radius: 10px; background: #fff; margin-bottom: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.03); }
+.info-label { font-size: 0.7rem; color: #888; text-transform: uppercase; font-weight: bold; }
+.info-value { font-size: 0.85rem; font-weight: bold; color: #007bff; }
+
+.log-box { height: 250px; overflow-y: auto; font-size: 0.85em; background: #fff; border: 1px solid #ddd; padding: 10px; border-radius: 8px; }
+
+/* ============================================================
+   6. UNIVERSAL UI COMPONENTS & FIXES
+   ============================================================ */
+#loading {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(15, 12, 41, 1); display: flex;
+    justify-content: center; align-items: center; z-index: 9999;
+}
+
+.btn-blue {
+    width: 100%; padding: 14px; background: linear-gradient(45deg, #ff4b2b, #ff416c);
+    border: none; border-radius: 10px; color: white; font-weight: 700;
+    text-transform: uppercase; cursor: pointer; transition: 0.3s;
+}
+
+.btn-xs { padding: 2px 8px; font-size: 10px; border-radius: 4px; }
+.badge { padding: 0.5em 0.8em; border-radius: 6px; font-weight: 600; }
+
+.password-wrapper { position: relative; display: flex; align-items: center; }
+#togglePassword { position: absolute; right: 15px; cursor: pointer; color: rgba(255, 255, 255, 0.5); z-index: 20; }
+
+.modal { z-index: 1060 !important; }
+.modal-backdrop { z-index: 1050 !important; }
+
+/* Menyamakan tinggi input dan button */
+.d-flex.align-items-stretch .form-control-sm,
+.d-flex.align-items-stretch .btn-sm {
+    height: 34px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.me-2 { margin-right: 0.5rem !important; }
+.text-info-custom { color: #00d4ff !important; }

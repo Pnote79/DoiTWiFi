@@ -1,0 +1,399 @@
+/* =========================================
+   DOIT WIFI - UNIFIED CSS (ALL PAGES)
+========================================= */
+
+/* GLOBAL */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f4f7f6;
+    color: #333;
+}
+/* --- 5. VOUCHER CONTAINER (Bagian yang bisa di-scroll) --- */
+.badge-notif {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+/* --- 6. VOUCHER CARD CORE --- */
+.voucher-card {
+    border-radius: 14px;
+    color: white;
+    display: flex;
+    align-items: stretch;
+    min-height: 90px;
+    margin-bottom: 5px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.voucher-card:active { transform: scale(0.97); }
+
+.voucher-left {
+    flex: 0 0 auto;
+    min-width: 95px;
+    max-width: 130px;
+    border-right: 1px dashed rgba(255,255,255,0.4);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.voucher-logo {
+    font-size: 9px;
+    font-weight: 800;
+    background: rgba(255,255,255,0.2);
+    padding: 4px 6px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.voucher-info {
+    flex: 1;
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.voucher-title { font-size: 12px; font-weight: bold; text-transform: uppercase; }
+.voucher-price { font-size: 16px; font-weight: 800; margin: 2px 0; }
+.voucher-limit { font-size: 9px; opacity: 0.9; }
+
+/* Badge Stok di Pojok Kanan Atas */
+.voucher-stok {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #25a05c;
+    padding: 3px 10px;
+    font-size: 10px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 14px;
+    font-weight: bold;
+}
+
+/* --- 7. RESPONSIVE ADJUSTMENTS --- */
+
+/* Tampilan Tablet & PC */
+@media (min-width: 768px) {
+    .header-fixed { height: 220px; }
+    .card-stat-compact { margin-top: 150px; }
+    .voucher-title { font-size: 14px; }
+    .voucher-price { font-size: 18px; }
+}
+
+/* Tampilan Mobile Kecil */
+@media (max-width: 375px) {
+    .voucher-left { min-width: 80px; padding: 5px; }
+    .voucher-logo { font-size: 8px; }
+    .voucher-price { font-size: 14px; }
+}
+/* =========================================
+   HEADER UNIVERSAL (OLD - COMPATIBILITY)
+========================================= */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    background: linear-gradient(135deg, #008CFF, #005fad);
+    color: white;
+    padding: 12px 15px;
+    border-radius: 0 0 15px 15px;
+}
+
+/* =========================================
+   HEADER APP PERFECT CENTER (REVISED)
+========================================= */
+
+.app-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 60px;
+    padding: 0 10px; /* Padding samping dikurangi agar tombol mepet pas */
+    
+    background: linear-gradient(135deg, #008CFF, #005fad);
+    color: white;
+    
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    backdrop-filter: blur(10px);
+
+    /* Gunakan Flexbox untuk distribusi yang presisi */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Judul otomatis mengisi ruang tengah */
+.app-header .title {
+    flex: 1; 
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    
+    /* Mencegah teks turun ke bawah jika terlalu panjang */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+
+.app-back:hover, .app-icon:hover {
+    background: rgba(255,255,255,0.35);
+}
+
+/* Responsive Mobile */
+@media (max-width: 576px) {
+    .app-header { height: 55px; }
+    .app-header .title { font-size: 14px; }
+}
+/* =========================================
+   CONTAINER
+========================================= */
+.container,
+.container-fluid,
+.container-main,
+.app-content {
+    padding: 15px;
+    padding-bottom: 80px;
+}
+
+/* =========================================
+   CARD GLOBAL
+========================================= */
+.card,
+.card-seller,
+.promo-box {
+    background: #fff;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* =========================================
+   STAT BOX
+========================================= */
+.stat-box {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 3px solid #008CFF;
+    text-align: center;
+}
+
+/* =========================================
+   SEARCH
+========================================= */
+.search-container {
+    position: sticky;
+    top: 60px;
+    z-index: 999;
+    background: #f4f7f6;
+    padding: 10px;
+}
+
+.search-input {
+    border-radius: 20px;
+    height: 40px;
+    border: 1px solid #ddd;
+    padding-left: 40px;
+}
+
+.fa-search-icon {
+    position: absolute;
+    left: 25px;
+    top: 22px;
+    color: #888;
+}
+
+/* =========================================
+   TABLE RESPONSIVE
+========================================= */
+.table-responsive {
+    overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+
+    .mobile-stack thead {
+        display: none;
+    }
+
+    .mobile-stack tr {
+        display: block;
+        background: white;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .mobile-stack td {
+        display: flex;
+        justify-content: space-between;
+        padding: 6px 0;
+        font-size: 12px;
+    }
+
+    .mobile-stack td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        color: #777;
+    }
+}
+
+/* =========================================
+   VOUCHER
+========================================= */
+.badge-code {
+    font-size: 11px;
+    padding: 4px 8px;
+    background: #f1f3f5;
+    border-radius: 6px;
+}
+
+/* =========================================
+   GENERATE
+========================================= */
+.container-vouchers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.voucher-div {
+    border: 2px dashed #999;
+    width: 180px;
+    height: 110px;
+    margin: 5px;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+.voucher-content {
+    padding: 5px;
+}
+
+.amount {
+    position: absolute;
+    left: -35px;
+    top: 40px;
+    transform: rotate(90deg);
+    font-size: 11px;
+    font-weight: bold;
+    background: #eee;
+    padding: 2px 6px;
+}
+
+.code {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #e74c3c;
+}
+
+/* =========================================
+   PROFILE
+========================================= */
+.promo-box {
+    margin-top: 10px;
+}
+
+/* =========================================
+   DASHBOARD CARD
+========================================= */
+.voucher-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 12px;
+    padding: 12px;
+    color: white;
+    margin-bottom: 8px;
+}
+
+/* =========================================
+   MENU
+========================================= */
+.top-menu {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    background: white;
+    border-radius: 12px;
+}
+
+.top-menu a {
+    flex: 1;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    text-decoration: none;
+}
+
+/* =========================================
+   BUTTON
+========================================= */
+.btn-nav {
+    background: #f0f2f5;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+@media (max-width: 576px) {
+
+    body {
+        font-size: 13px;
+    }
+
+    .voucher-div {
+        width: 48%;
+    }
+
+    .app-header {
+        height: 55px;
+        padding: 10px;
+    }
+
+    .app-header .title {
+        font-size: 14px;
+    }
+
+    .back-button span {
+        display: none;
+    }
+
+    .back-button {
+        padding: 10px;
+        border-radius: 50%;
+    }
+}

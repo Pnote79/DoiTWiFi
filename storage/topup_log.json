@@ -1,0 +1,1873 @@
+[
+    {
+        "datetime": "2026-03-31 15:54:03",
+        "sellername": "Djo",
+        "topup": 50000,
+        "after": 53500,
+        "msg": "Topup Berhasil",
+        "read": false
+    },
+    {
+        "datetime": "2026-03-29 18:04:24",
+        "sellername": "Djo",
+        "topup": 50000,
+        "after": 50500,
+        "msg": "Topup Berhasil",
+        "read": false
+    },
+    {
+        "datetime": "2026-03-28 23:54:42",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 1293000,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-28 17:46:01",
+        "sellername": "Djo",
+        "topup": 50000,
+        "after": 51000,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-27 17:59:45",
+        "sellername": "AbdulSho",
+        "topup": 200000,
+        "after": 225000,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-27 16:40:19",
+        "sellername": "Djo",
+        "topup": 50000,
+        "after": 52000,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-25 18:24:50",
+        "sellername": "Djo",
+        "topup": 50000,
+        "after": 53500,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-24 14:15:42",
+        "sellername": "Djo",
+        "topup": 50000,
+        "after": 52000,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-23 09:04:30",
+        "sellername": "Djo",
+        "topup": 50000,
+        "after": 62000,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-21 17:00:13",
+        "sellername": "Djo",
+        "topup": 50000,
+        "after": 54500,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-20 17:06:45",
+        "sellername": "Djo",
+        "topup": 50000,
+        "after": 62000,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-19 10:13:44",
+        "sellername": "Djo",
+        "topup": 50000,
+        "after": 57500,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-17 20:43:05",
+        "sellername": "root",
+        "topup": 50000,
+        "after": 335000,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-17 20:21:53",
+        "sellername": "Djo",
+        "topup": 50000,
+        "after": 50000,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-15 23:07:32",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 1330000,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-15 15:51:44",
+        "sellername": "AbdulSho",
+        "topup": 200000,
+        "after": 206000,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-09 13:26:45",
+        "sellername": "Djo",
+        "topup": 50000,
+        "after": 50000,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-06 20:23:04",
+        "sellername": "Djo",
+        "topup": 50000,
+        "after": 52500,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-05 21:35:45",
+        "sellername": "root",
+        "topup": 50000,
+        "after": 336000,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-03 18:14:54",
+        "sellername": "Djo",
+        "topup": 50000,
+        "after": 52000,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-01 20:14:24",
+        "sellername": "Djo",
+        "topup": 50000,
+        "after": 51000,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-01 12:30:11",
+        "sellername": "Djo",
+        "topup": 50000,
+        "after": 50500,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-27 21:34:14",
+        "sellername": "Djo",
+        "topup": 50000,
+        "after": 50000,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-26 20:38:11",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 1468000,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-26 15:23:38",
+        "sellername": "root",
+        "topup": 50000,
+        "after": 336000,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-26 14:57:26",
+        "sellername": "root",
+        "topup": 50000,
+        "after": 288000,
+        "msg": "Topup Berhasil",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-25 17:49:17",
+        "sellername": "root",
+        "topup": 50000,
+        "after": 238000,
+        "msg": "Topup Rp 50.000 Berhasil. Saldo Rp 238.000",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-24 20:20:45",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 1438500,
+        "msg": "Topup Rp 50.000 Berhasil. Saldo Rp 1.438.500",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-24 18:35:19",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 1390500,
+        "msg": "Topup Rp 50.000 Berhasil. Saldo Rp 1.390.500",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-24 18:18:37",
+        "sellername": "pnote",
+        "topup": 100000,
+        "after": 1340500,
+        "msg": "Topup Rp 0  Berhasil. Saldo Rp 0",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-24 18:18:18",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 1240500,
+        "msg": "Topup Rp 0  Berhasil. Saldo Rp 0",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-24 06:32:09",
+        "sellername": "pnote",
+        "topup": 100000,
+        "after": 1193500,
+        "read": true
+    },
+    {
+        "datetime": "2026-02-24 00:52:29",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 1095500,
+        "read": true
+    },
+    {
+        "datetime": "2026-02-23 23:26:24",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 1045500,
+        "read": true
+    },
+    {
+        "datetime": "2026-02-23 19:58:17",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 1001500,
+        "read": true
+    },
+    {
+        "datetime": "2026-02-23 19:57:16",
+        "sellername": "root",
+        "topup": 50000,
+        "after": 217000,
+        "read": true
+    },
+    {
+        "datetime": "2026-02-23 15:24:07",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 951500,
+        "read": true
+    },
+    {
+        "datetime": "2026-02-23 14:28:21",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 901500,
+        "read": true
+    },
+    {
+        "datetime": "2026-02-23 14:27:50",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 851500,
+        "read": true
+    },
+    {
+        "datetime": "2026-02-23 14:26:42",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 801500,
+        "read": true
+    },
+    {
+        "datetime": "2026-02-23 14:19:01",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 751500,
+        "read": true
+    },
+    {
+        "datetime": "2026-02-23 14:16:08",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 701500,
+        "read": true
+    },
+    {
+        "datetime": "2026-02-23 14:14:43",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 651500,
+        "read": true
+    },
+    {
+        "datetime": "2026-02-23 14:13:34",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 601500,
+        "read": true
+    },
+    {
+        "datetime": "2026-02-23 14:13:03",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 551500,
+        "read": true
+    },
+    {
+        "datetime": "2026-02-23 14:09:56",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 501500,
+        "read": true
+    },
+    {
+        "datetime": "2026-02-23 14:07:36",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 451500,
+        "read": true
+    },
+    {
+        "datetime": "2026-02-23 14:05:10",
+        "sellername": "pnote",
+        "topup": 200000,
+        "after": 401500,
+        "read": true
+    },
+    {
+        "datetime": "2026-02-23 14:00:08",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 201500,
+        "read": true
+    },
+    {
+        "datetime": "2026-02-23 13:46:08",
+        "sellername": "pnote",
+        "topup": 100000,
+        "after": 151500,
+        "read": true
+    },
+    {
+        "datetime": "2026-02-23 13:42:46",
+        "sellername": "pnote",
+        "topup": 50000,
+        "after": 51500,
+        "read": true
+    },
+    {
+        "datetime": "2025-05-15 20:51:13",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 0,
+        "after": 50000,
+        "read": true
+    },
+    {
+        "datetime": "2025-05-15 20:52:49",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 100000,
+        "before": 0,
+        "after": 100000,
+        "read": true
+    },
+    {
+        "datetime": "2025-05-16 13:27:01",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "read": true
+    },
+    {
+        "datetime": "2025-05-17 13:22:17",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 0,
+        "after": 50000,
+        "read": true
+    },
+    {
+        "datetime": "2025-05-18 03:50:49",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 1500,
+        "before": 41500,
+        "after": 43000,
+        "msg": "Topup Rp 1,500  Berhasil. Saldo Rp 43,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-05-18 11:56:32",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-05-19 02:35:20",
+        "sellerid": "0",
+        "sellername": "root",
+        "topup": 200000,
+        "before": 1000,
+        "after": 201000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 201,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-05-20 12:41:44",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 2500,
+        "after": 52500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 52,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-05-22 03:25:19",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 100000,
+        "before": 15500,
+        "after": 115500,
+        "msg": "Topup Rp 100,000  Berhasil. Saldo Rp 115,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-05-22 05:07:02",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 4500,
+        "after": 54500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 54,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-05-22 15:57:22",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 50000,
+        "before": 102000,
+        "after": 152000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 152,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-05-24 13:25:49",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-05-27 14:30:37",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-05-27 14:31:09",
+        "sellerid": "4",
+        "sellername": "faresta",
+        "topup": 50000,
+        "before": 2000,
+        "after": 52000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 52,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-05-28 12:29:13",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 3000,
+        "after": 53000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 53,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-05-31 13:17:42",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 5000,
+        "after": 55000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 55,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-06-02 13:36:32",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-06-03 12:40:27",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 3000,
+        "after": 53000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 53,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-06-03 12:40:29",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 53000,
+        "after": 103000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 103,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-06-04 18:32:28",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 50000,
+        "before": 80000,
+        "after": 130000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 130,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-06-06 02:41:14",
+        "sellerid": "4",
+        "sellername": "faresta",
+        "topup": 100000,
+        "before": 4000,
+        "after": 104000,
+        "msg": "Topup Rp 100,000  Berhasil. Saldo Rp 104,000",
+        "read": false
+    },
+    {
+        "datetime": "2025-06-07 04:11:33",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 150000,
+        "before": 3000,
+        "after": 153000,
+        "msg": "Topup Rp 150,000  Berhasil. Saldo Rp 153,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-06-07 05:24:41",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 100000,
+        "before": 13500,
+        "after": 113500,
+        "msg": "Topup Rp 100,000  Berhasil. Saldo Rp 113,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-06-07 17:13:08",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 4000,
+        "after": 54000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 54,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-06-11 09:43:30",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 3000,
+        "after": 53000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 53,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-06-25 08:32:29",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-08-19 08:26:39",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 0,
+        "after": 50000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-08-21 11:31:30",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 200000,
+        "before": 500,
+        "after": 200500,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 200,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-08-21 11:31:57",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 6500,
+        "after": 56500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 56,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-08-23 02:54:22",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-08-24 14:25:41",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-08-24 14:25:46",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 51000,
+        "after": 101000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 101,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-08-27 11:21:59",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 0,
+        "after": 50000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-08-31 09:27:23",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-08-31 13:38:56",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 200000,
+        "before": 3000,
+        "after": 203000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 203,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-09-04 13:23:26",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-09-06 09:24:16",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 8500,
+        "after": 58500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 58,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-09-06 12:24:39",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 200000,
+        "before": 6000,
+        "after": 206000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 206,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-09-07 08:36:46",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 200000,
+        "before": 0,
+        "after": 200000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 200,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-09-09 22:55:59",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 0,
+        "after": 50000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-09-11 11:26:38",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-09-14 14:22:09",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-09-16 09:44:55",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 0,
+        "after": 50000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-09-18 14:00:39",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-09-20 12:18:26",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-09-20 12:18:45",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 200000,
+        "before": 1500,
+        "after": 201500,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 201,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-09-23 07:23:02",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 6000,
+        "after": 56000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 56,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-09-25 11:44:50",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-09-26 13:13:03",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 200000,
+        "before": 1000,
+        "after": 201000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 201,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-09-28 01:43:04",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 2500,
+        "after": 52500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 52,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-09-29 23:17:41",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 0,
+        "after": 50000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-10-02 04:01:52",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-10-04 04:03:33",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-10-06 23:48:35",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 4500,
+        "after": 54500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 54,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-10-07 15:47:44",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 200000,
+        "before": 4000,
+        "after": 204000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 204,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-10-08 10:55:23",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-10-10 09:18:08",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-10-11 11:32:19",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 0,
+        "after": 50000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-10-16 08:27:03",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 12500,
+        "after": 62500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 62,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-10-17 08:44:09",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 200000,
+        "before": 1000,
+        "after": 201000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 201,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-10-19 12:05:00",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 2500,
+        "after": 52500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 52,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-10-21 09:31:52",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 200000,
+        "before": 4500,
+        "after": 204500,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 204,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-10-22 11:42:50",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-10-22 11:43:06",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 200000,
+        "before": 1000,
+        "after": 201000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 201,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-10-24 10:44:38",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 0,
+        "after": 50000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-10-27 10:49:58",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 2000,
+        "after": 52000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 52,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-10-29 23:16:02",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 7000,
+        "after": 57000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 57,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-11-01 12:14:34",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 4500,
+        "after": 54500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 54,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-11-04 12:51:50",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 6500,
+        "after": 56500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 56,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-11-05 00:48:34",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 200000,
+        "before": 1500,
+        "after": 201500,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 201,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-11-05 11:09:35",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-11-07 10:17:54",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 3500,
+        "after": 53500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 53,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-11-09 07:17:28",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 200000,
+        "before": 2000,
+        "after": 202000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 202,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-11-10 11:41:19",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-11-13 11:04:34",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 0,
+        "after": 50000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-11-13 12:52:41",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 200000,
+        "before": 1000,
+        "after": 201000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 201,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-11-16 13:22:21",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 3000,
+        "after": 53000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 53,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-11-18 12:44:28",
+        "sellerid": "0",
+        "sellername": "root",
+        "topup": 200000,
+        "before": 1000,
+        "after": 201000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 201,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-11-19 10:43:53",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 5000,
+        "after": 55000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 55,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-11-19 23:38:12",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 49000,
+        "after": 99000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 99,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-11-19 23:38:35",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 200000,
+        "before": 1000,
+        "after": 201000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 201,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-11-21 23:35:15",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-11-23 10:51:26",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 0,
+        "after": 50000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-11-26 11:48:32",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 9500,
+        "after": 59500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 59,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-11-29 05:09:19",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 10000,
+        "after": 60000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 60,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-11-29 23:08:38",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 200000,
+        "before": 500,
+        "after": 200500,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 200,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-01 22:54:04",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 3000,
+        "after": 53000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 53,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-04 10:36:28",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 5000,
+        "after": 55000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 55,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-06 09:30:48",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 10000,
+        "after": 60000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 60,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-07 13:42:04",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 0,
+        "after": 50000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-09 09:07:12",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 0,
+        "after": 50000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-11 12:57:36",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 3500,
+        "after": 53500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 53,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-12 14:10:22",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 200000,
+        "before": 1500,
+        "after": 201500,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 201,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-12 14:11:11",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 200000,
+        "before": 0,
+        "after": 200000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 200,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-13 03:11:59",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 4000,
+        "after": 54000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 54,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-15 12:27:09",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1500,
+        "after": 51500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-17 06:03:38",
+        "sellerid": "0",
+        "sellername": "root",
+        "topup": 200000,
+        "before": 1500,
+        "after": 201500,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 201,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-17 13:34:42",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 200000,
+        "before": 11500,
+        "after": 211500,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 211,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-18 01:18:32",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-20 00:48:11",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-21 12:22:52",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 2500,
+        "after": 52500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 52,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-23 11:58:42",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-25 10:34:37",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1500,
+        "after": 51500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-27 00:47:35",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-27 12:48:10",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-28 01:56:24",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 200000,
+        "before": 3000,
+        "after": 203000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 203,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-29 00:47:51",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 4500,
+        "after": 54500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 54,500",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-29 14:16:11",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 200000,
+        "before": 83000,
+        "after": 283000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 283,000",
+        "read": true
+    },
+    {
+        "datetime": "2025-12-31 01:09:23",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-01 09:56:51",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 10000,
+        "after": 60000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 60,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-02 18:45:20",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 0,
+        "after": 50000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-04 07:09:58",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 2000,
+        "after": 52000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 52,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-06 10:18:34",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-08 11:50:34",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 3000,
+        "after": 53000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 53,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-10 11:05:33",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 5000,
+        "after": 55000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 55,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-13 07:03:54",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-13 07:05:42",
+        "sellerid": "0",
+        "sellername": "root",
+        "topup": 200000,
+        "before": 0,
+        "after": 200000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 200,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-13 09:44:41",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 200000,
+        "before": 0,
+        "after": 200000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 200,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-14 23:44:34",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 0,
+        "after": 50000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-16 09:38:03",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-17 02:19:46",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 6000,
+        "after": 56000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 56,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-19 12:29:49",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 5000,
+        "after": 55000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 55,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-21 08:02:57",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-22 10:47:59",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 200000,
+        "before": 4500,
+        "after": 204500,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 204,500",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-23 12:43:59",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-25 12:59:04",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 200000,
+        "before": 1000,
+        "after": 201000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 201,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-26 09:18:54",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 4500,
+        "after": 54500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 54,500",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-28 10:58:40",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-29 09:51:03",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2026-01-31 11:44:40",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-02 12:08:41",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 4000,
+        "after": 54000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 54,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-05 11:17:23",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 2500,
+        "after": 52500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 52,500",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-07 11:17:23",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1500,
+        "after": 51500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,500",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-07 11:17:53",
+        "sellerid": "1",
+        "sellername": "pnote",
+        "topup": 200000,
+        "before": 5000,
+        "after": 205000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 205,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-08 05:56:46",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 0,
+        "after": 50000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-10 13:05:14",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 3500,
+        "after": 53500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 53,500",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-10 22:39:14",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 200000,
+        "before": 2000,
+        "after": 202000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 202,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-12 08:31:01",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-13 13:31:57",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-16 05:54:33",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 4000,
+        "after": 54000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 54,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-18 00:08:44",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 3000,
+        "after": 53000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 53,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-20 16:02:56",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 500,
+        "after": 50500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 50,500",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-20 16:03:13",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 200000,
+        "before": 15000,
+        "after": 215000,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 215,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-21 12:12:55",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 5000,
+        "after": 55000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 55,000",
+        "read": true
+    },
+    {
+        "datetime": "2026-02-23 09:02:01",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    },
+    {
+        "sellername": "root",
+        "topup": 50000,
+        "after": 167000,
+        "date": "2026-02-23 19:35:27",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-05 04:12:13",
+        "sellerid": "3",
+        "sellername": "AbdulSho",
+        "topup": 200000,
+        "before": 6500,
+        "after": 206500,
+        "msg": "Topup Rp 200,000  Berhasil. Saldo Rp 206,500",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-11 12:18:44",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 18500,
+        "after": 68500,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 68,500",
+        "read": true
+    },
+    {
+        "datetime": "2026-03-15 09:40:30",
+        "sellerid": "2",
+        "sellername": "Djo",
+        "topup": 50000,
+        "before": 1000,
+        "after": 51000,
+        "msg": "Topup Rp 50,000  Berhasil. Saldo Rp 51,000",
+        "read": true
+    }
+]
