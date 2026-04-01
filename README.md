@@ -23,7 +23,9 @@ Username = root
 passwword = admin
 Dasbord = KWH@otspot efect 2 warna pemisah @
 
-- 
+- Managemen Pembayaran
+<img width="1640" height="2331" alt="image" src="https://github.com/user-attachments/assets/5d95df12-f0f4-4adc-8239-d430fb25f4f5" />
+
   
 
 
