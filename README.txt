@@ -14,3 +14,10 @@ URL:
 /mikrotik/pppoe
 /voucher
 /seller
+
+
+longpoling telegram
+php /var/www/html/DOiTWiFi/app/Views/admin/bot/botpoll.php
+
+Backen Starlink
+node /var/www/html/DOiTWiFi/app/Views/node/starlink.js
