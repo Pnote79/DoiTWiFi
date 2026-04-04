@@ -9,7 +9,7 @@ Modules:
 - Seller System
 
 <h2><b>Beri ijin dulu</b></h2>
-<code>sudo chown -R www-data:www-data DoiTWiFi/storage </code>
+<code>sudo chown -R www-data:www-data DoiTWiFi/storage </code><br>
 <code>sudo chmod -R 755 DoiTWiFi/storage </code>
 
 <h2>longpoling telegram</h2> 
