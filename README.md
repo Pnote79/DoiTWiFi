@@ -38,5 +38,6 @@ node /var/www/html/DOiTWiFi/app/Views/node/starlink.js
 
 /bin/sh /usr/local/bin/sync-github.sh <br>
 <b> Saran dan Penambahan Fitur </b> <h2>tok tok kwhotspot </h2>
-<img width="731" height="1190" alt="image" src="https://github.com/user-attachments/assets/d62eb1a7-b2fb-40c4-90fe-127447a62459" />
+<img width="1297" height="1133" alt="image" src="https://github.com/user-attachments/assets/f26184d8-14e4-41ba-8971-27b2abcfdfdb" />
+
 
