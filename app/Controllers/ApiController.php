@@ -79,33 +79,85 @@ public function pingtest() {
      * Simpan Konfigurasi MikroTik & Telegram
      */
 public function save_mikro_tele() {
-    $data = file_exists($this->json_path) ? json_decode(file_get_contents($this->json_path), true) : [[], []];
 
+    // 1. Pastikan folder ada
+    $dir = dirname($this->json_path);
+    if (!is_dir($dir)) {
+        mkdir($dir, 0755, true);
+    }
+
+    // 2. Jika file belum ada → buat default
+    if (!file_exists($this->json_path)) {
+        $default = [
+            [
+                'mtip'   => '',
+                'mtuser' => '',
+                'mtpass' => '',
+                'dns'    => '',
+                'mtdns'  => '',
+                'acsurl' => ''
+            ],
+            [
+                'teletoken' => '',
+                'chatid'    => ''
+            ]
+        ];
+
+        file_put_contents(
+            $this->json_path,
+            json_encode($default, JSON_PRETTY_PRINT),
+            LOCK_EX
+        );
+    }
+
+    // 3. Load JSON
+    $json = file_get_contents($this->json_path);
+    $data = json_decode($json, true);
+
+    // fallback kalau rusak
+    if (!is_array($data)) {
+        $data = [[], []];
+    }
+
+    // 4. Proses MikroTik
     if (isset($_POST['ipmik'])) {
         $data[0] = [
-            'mtip'    => $_POST['ipmik'],
-            'mtuser'  => $_POST['usermik'],
-            'mtpass'  => !empty($_POST['passmik']) ? $_POST['passmik'] : ($data[0]['mtpass'] ?? ''),
-            'dns'     => $_POST['hotmik'] ?? '', 
-            'mtdns'   => $_POST['dnsmik'] ?? '',
-            'acsurl'  => $_POST['acsurl'] ?? '' // Disamakan menjadi 'acsurl'
+            'mtip'   => trim($_POST['ipmik'] ?? ''),
+            'mtuser' => trim($_POST['usermik'] ?? ''),
+            'mtpass' => !empty($_POST['passmik'])
+                        ? $_POST['passmik']
+                        : ($data[0]['mtpass'] ?? ''),
+            'dns'    => trim($_POST['hotmik'] ?? ''),
+            'mtdns'  => trim($_POST['dnsmik'] ?? ''),
+            'acsurl' => trim($_POST['acsurl'] ?? '')
         ];
     }
 
+    // 5. Proses Telegram
     if (isset($_POST['teletoken'])) {
         $data[1] = [
-            'teletoken' => $_POST['teletoken'],
-            'chatid'    => $_POST['chat_id']
+            'teletoken' => trim($_POST['teletoken'] ?? ''),
+            'chatid'    => trim($_POST['chat_id'] ?? '')
         ];
     }
 
-    if (file_put_contents($this->json_path, json_encode($data, JSON_PRETTY_PRINT))) {
+    // 6. Simpan
+    $save = file_put_contents(
+        $this->json_path,
+        json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES),
+        LOCK_EX
+    );
+
+    // 7. Redirect hasil
+    if ($save !== false) {
         header("Location: " . BASE_URL . "/settings?msg=success");
     } else {
         header("Location: " . BASE_URL . "/settings?msg=error");
     }
+
     exit;
-} 
+}
+
 
   /**
      * Update Akun Admin Web
