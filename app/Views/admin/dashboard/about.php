@@ -74,7 +74,7 @@ $qr_api = "https://quickchart.io/qr?text=" . urlencode($dana_url) . "&size=180&m
 
                         <div class="col-lg-5 text-center mt-4 mt-lg-0">
                             <div class="p-3" style="background: rgba(255,255,255,0.03); border-radius: 12px; border: 1px dashed #30363d;">
-                                <h6 class="mb-3 text-warning"><i class="fas fa-coffee"></i>☕ Dukung Developer</h6>
+                                <h6 class="mb-3 text-warning"><i class="fas fa-coffee"></i>☕ Dukung Developer </h6>
                                 
                                 <div class="qr-box mb-3">
                                     <img src="<?= $qr_api ?>" alt="QR DANA" class="img-fluid" style="width: 160px; height: 160px;">
