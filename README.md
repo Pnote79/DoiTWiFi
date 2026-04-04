@@ -20,7 +20,4 @@ node /var/www/html/DOiTWiFi/app/Views/node/starlink.js
 
 /bin/sh /usr/local/bin/sync-github.sh
 
-            </div>
-        </div>
-    </div>
-</div>
+
