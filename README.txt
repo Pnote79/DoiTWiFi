@@ -14,7 +14,9 @@ URL:
 /mikrotik/pppoe
 /voucher
 /seller
-
+<h2><b>Beri ijin dulu</b></h2>
+<code>sudo chown -R www-data:www-data DoiTWiFi/storage </code>
+<code>sudo chmod -R 755 DoiTWiFi/storage </code>
 
 longpoling telegram
 php /var/www/html/DOiTWiFi/app/Views/admin/bot/botpoll.php
