@@ -6,7 +6,7 @@
         "sellerpasswd": "$2y$10$M3Ci7Dfavg5yMWm73LdMqeNRbWUDutS1dBoRuYmp1kSaBaw1XalTu",
         "profile": "admin",
         "sellerphone": "-",
-        "sellerbalance": 116500,
+        "sellerbalance": 79500,
         "id": 0
     },
     "2": {
@@ -14,7 +14,7 @@
         "sellerpasswd": "$2y$10$Kqz.yhDPTak2y\/JzBO9ko.f97rKcmgB6mTcMTXwRYga4NjY1QS8le",
         "profile": "seller",
         "sellerphone": "081328969125",
-        "sellerbalance": 1287000,
+        "sellerbalance": 1278000,
         "id": 1,
         "chat_id": "8596662422",
         "sellertele": "@Afou"
@@ -24,7 +24,7 @@
         "sellerpasswd": "$2y$12$lB\/UtvHpdTckphK1GR5woOgdJsfBtym418UhiQ7Qyf1VK3E4iqa.6",
         "profile": "seller",
         "sellerphone": "08881",
-        "sellerbalance": 8500,
+        "sellerbalance": 45500,
         "id": 2
     },
     "4": {
@@ -32,7 +32,7 @@
         "sellerpasswd": "$2y$10$eW7sd9RMU\/BsPty1YZfDTeEyRNXXedBkzGyXraac.4lfWEGVfza5e",
         "profile": "seller",
         "sellerphone": "08881",
-        "sellerbalance": 159000,
+        "sellerbalance": 100000,
         "id": 3
     },
     "5": {

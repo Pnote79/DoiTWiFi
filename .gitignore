@@ -1,8 +1,47 @@
+# Sensitive Files
+
 .env
+
 config/database.php
+
+mikrotikdata.json
+
+
+
+# Logs and Storage
+
 storage/*.log
+
+*.log
+
+npm-debug.log*
+
+yarn-debug.log*
+
+yarn-error.log*
+
+
+
+# Dependency Folders
+
 node_modules/
-.env
-config/database.php
-storage/*.log
-node_modules/
+
+vendor/
+
+
+
+# OS/IDE Files
+
+.DS_Store
+
+Thumbs.db
+
+.vscode/
+
+.idea/
+
+
+
+# System Files
+
+app/Controllers/cookie.txt

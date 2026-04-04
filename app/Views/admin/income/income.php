@@ -158,7 +158,18 @@ if (file_exists($json_path)) {
                                 <div class="font-weight-bold text-info" style="line-height:1.2;"><?= $q['name'] ?></div>
                                 <small class="text-muted" style="font-size: 0.7rem;"><?= $tgl ?></small> 
                             </td>
-                            <td class="d-none d-sm-table-cell"><span class="badge-code"><?= $q['target'] ?></span></td>
+                            <td class="d-none d-sm-table-cell">
+                                   <?php 
+                                     $rawTarget = $q['target'] ?? '';
+                                     $cleanTarget = explode('/', $rawTarget)[0]; 
+                                    ?>
+                                <span class="badge-code btn-open-router" 
+                                style="cursor: pointer; border: 1px solid #007bff; padding: 2px 8px; border-radius: 4px;" 
+                                data-ip="<?= $cleanTarget ?>" 
+                                title="Klik untuk akses lokal">
+                                <i class="fas fa-desktop mr-1"></i> <?= $cleanTarget ?>
+                                </span>
+                            </td>
                             <td>
                                 <?php if ($status == 't' && $baseValue > 0): ?>
                                     <span class="badge badge-tunggak px-2 py-1">Rp <?= number_format($displayPrice, 0, ',', '.') ?></span>
@@ -539,6 +550,53 @@ html2pdf().set({
 }).from(element).save();
         }
     });
+});
+/*
+*Remote router
+*/
+$('.btn-open-router').on('click', function () {
+    const ip = $(this).data('ip');
+    const width = 1100;
+    const height = 750;
+    const left = (screen.width / 2) - (width / 2);
+    const top = (screen.height / 2) - (height / 2);
+
+    // Daftar port yang umum digunakan router
+    const ports = [80, 8080, 81, 88];
+
+    // Fungsi untuk membuka popup setelah port ditemukan
+    const launch = (port) => {
+        const url = `http://${ip}:${port}`;
+        window.open(
+            url,
+            'RouterLocal_' + ip.replace(/\./g, '_'),
+            `width=${width},height=${height},top=${top},left=${left},resizable=yes,scrollbars=yes`
+        );
+    };
+
+    // Tampilkan loading sebentar (Opsional, pakai SweetAlert jika ada)
+    console.log(`Mengecek akses ke ${ip}...`);
+
+    // Logika Cek Port Tercepat
+    let found = false;
+    const promises = ports.map(port => {
+        return fetch(`http://${ip}:${port}`, { mode: 'no-cors', cache: 'no-cache' })
+            .then(() => {
+                if (!found) {
+                    found = true;
+                    launch(port);
+                }
+            })
+            .catch(() => { /* Abaikan port yang tertutup */ });
+    });
+
+    // Jika dalam 2 detik tidak ada port yang respon
+    setTimeout(() => {
+        if (!found) {
+            // Fallback: Paksa buka port 80 jika pengecekan gagal
+            launch(80);
+        }
+    }, 2000);
 });
 
 </script>

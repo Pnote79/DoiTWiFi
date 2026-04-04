@@ -102,6 +102,7 @@ case '/income/income':    (new IncomeController())->index(); break;     // Halam
 case '/income/dashboard': (new IncomeController())->dashboard(); break; // Halaman Laporan Tab
 case '/income/bayar':     (new IncomeController())->bayar(); break;     // Aksi Bayar
 case '/income/syncMasal':     (new IncomeController())->syncMasal(); break;     // Aksi syncMasal
+case '/income/proxyRouter':     (new IncomeController())->proxyRouter(); break;
 
 
 // MIKROTIK PPPOE

@@ -444,4 +444,82 @@ private function updatePPPCommentOnly($name, $comment) {
         ]);
     }
 }
+/**
+ * Remote Ruoter
+ */
+public function proxyRouter() {
+    // 1. Validasi Akses & Input
+    if (!isset($_SESSION['username'])) die("Unauthorized");
+    
+    $target_ip = explode('/', $_GET['ip'] ?? '')[0];
+    $port = $_GET['port'] ?? '80';
+    $path = $_GET['path'] ?? '';
+
+    if (!filter_var($target_ip, FILTER_VALIDATE_IP)) die("IP Invalid");
+
+    $url = "http://$target_ip:$port/$path";
+    
+    // 2. Inisialisasi CURL dengan Header Manipulasi
+    $ch = curl_init($url);
+    curl_setopt_array($ch, [
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_TIMEOUT => 15,
+        CURLOPT_USERAGENT => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+        // 🔥 KUNCI BYPASS 403: Set Referer ke IP Router itu sendiri
+        CURLOPT_REFERER => "http://$target_ip/", 
+        CURLOPT_HTTPHEADER => [
+            "Host: $target_ip",
+            "Origin: http://$target_ip"
+        ],
+        CURLOPT_HEADER => true,
+    ]);
+
+    $response = curl_exec($ch);
+    $header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
+    $body = substr($response, $header_size);
+    $contentType = curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
+    curl_close($ch);
+
+    // 3. Kirim Header ke Browser
+    if ($contentType) header("Content-Type: $contentType");
+    header("X-Frame-Options: ALLOWALL");
+    header("Access-Control-Allow-Origin: *");
+
+    // 4. Injeksi Script untuk handle Link Internal (TP-Link WR820)
+    $currentProxy = BASE_URL . "/income/proxyRouter?ip=$target_ip&port=$port&path=";
+    
+    $patch = "
+    <script>
+        // Mencegah error '$.id' yang sering ada di TP-Link
+        window.onload = function() {
+            if (typeof $ === 'undefined') { var $ = function(id){return document.getElementById(id)}; }
+        };
+
+        // Otomatis arahkan link internal kembali ke proxy
+        document.addEventListener('click', function(e) {
+            let el = e.target.closest('a');
+            if (el) {
+                let href = el.getAttribute('href');
+                if (href && !href.startsWith('http') && !href.startsWith('#')) {
+                    e.preventDefault();
+                    window.location.href = '" . $currentProxy . "' + href.replace(/^\//,'');
+                }
+            }
+        });
+    </script>
+    <base href='http://$target_ip:$port/'>
+    <meta name='referrer' content='no-referrer'>
+    ";
+
+    // Sisipkan patch sebelum tutup head atau di awal body
+    if (strpos($body, '<head>') !== false) {
+        $body = str_replace('<head>', '<head>' . $patch, $body);
+    } else {
+        $body = $patch . $body;
+    }
+
+    echo $body;
+    exit;
+}
 }
