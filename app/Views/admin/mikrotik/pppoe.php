@@ -87,7 +87,7 @@ if (!isset($_SESSION['username']) || $_SESSION['role'] !== 'admin') {
                     <th>Username</th>
                     <th>Profile</th>
                     <th>Remote IP</th>
-                    <th>Comment</th>
+                    <th>Last Logout</th>
                     <th class="text-center" width="180">Aksi</th>
                 </tr>
             </thead>
@@ -124,7 +124,7 @@ if (!isset($_SESSION['username']) || $_SESSION['role'] !== 'admin') {
                         <?php if($u['isBelumBayar']): ?>
                             <span class="badge badge-danger"><i class="fas fa-exclamation-triangle"></i> TAGIHAN</span>
                         <?php endif; ?>
-                        <small class="text-muted"><?= htmlspecialchars($u['comment']) ?></small>
+                        <span class="text-muted"><?= htmlspecialchars($u['logout']) ?></span>
                     </td>
                     <td class="text-center">
                         <div class="btn-group">
