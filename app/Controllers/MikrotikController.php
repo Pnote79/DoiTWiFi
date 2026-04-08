@@ -77,6 +77,12 @@ public function pppoe() {
     foreach ($secrets_raw as $s) {
         $name    = $s['name'];
         $comment = $s['comment'] ?? '';
+	    $lastLogoutRaw = $s['last-logged-out'] ?? '';
+     if ($lastLogoutRaw && $lastLogoutRaw != "jan/01/1970 00:00:00") {
+        $logout = date("d/m/Y H:i:s", strtotime($lastLogoutRaw));
+    } else {
+        $logout = "Belum Login";
+    }
         
         // Cek apakah user sedang online
         $isActive = isset($active_map[$name]);
@@ -111,6 +117,7 @@ public function pppoe() {
             'profile'      => $s['profile'],
             'ip'           => $ip ?: '-', // Tampilkan strip jika tidak ada IP sama sekali
             'comment'      => $comment ?: '-',
+		    '$logout'      => $logout ?: '-',
             'isDisabled'   => $isDisabled,
             'isActive'     => $isActive,
             'isIsolir'     => $isIsolir,
